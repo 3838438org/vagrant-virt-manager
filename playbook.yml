@@ -1,7 +1,7 @@
 ---
 - hosts: all
   tasks:
-    - name: install virt-manager and fonts
+    - name: install virt-manager
       become: true
       apt:
         name: "{{ item }}"
